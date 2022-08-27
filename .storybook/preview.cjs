@@ -1,3 +1,5 @@
+import { tokens } from '../src/styles'
+
 export const parameters = {
   actions: {
     argTypesRegex: '^on[A-Z].*'
@@ -7,17 +9,16 @@ export const parameters = {
     values: [
       {
         name: 'background',
-        value: '#161618'
+        value: tokens.color.base.colorBackground
       },
       {
         name: 'hightlight',
-        value: '#68ddfd'
+        value: tokens.color.base.sky9
       },
       {
         name: 'white',
-        value: '#ffffff'
+        value: tokens.color.base.white
       },
-      
     ]
   },
   controls: {

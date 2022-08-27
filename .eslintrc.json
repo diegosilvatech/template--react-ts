@@ -65,5 +65,6 @@
         "endOfLine": "auto"
       }
     ]
-  }
+  },
+  "ignorePatterns": "src/index.html"
 }

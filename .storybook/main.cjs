@@ -20,24 +20,13 @@ module.exports = {
     storyStoreV7: true
   },
   async viteFinal(config, { configType }) {
-    return {
-      ...config,
-      resolve: {
-        alias: [
-          {
-            find: "assets",
-            replacement: path.resolve(__dirname, "../src/assets"),
-          },
-          {
-            find: "components",
-            replacement: path.resolve(__dirname, "../src/components"),
-          },
-          {
-            find: "styles",
-            replacement: path.resolve(__dirname, "../src/styles"),
-          },
-        ],
-      },
-    };
+    const { config: userConfig } = await loadConfigFromFile(
+      path.resolve(__dirname, "../vite.config.ts")
+    );
+
+    return mergeConfig(config, {
+      ...userConfig,
+      plugins: [],
+    });
   },
 }
