@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "Diego Silva",
+    "email": "social.diegosilvatech@gmail.com",
+    "url": "https://linkedin.com/in/diegosilvatech"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
