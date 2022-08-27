@@ -1,3 +1,5 @@
+import { Example } from 'components';
+
 import * as s from './home.styles';
 
 const Home = () => {
@@ -6,6 +8,7 @@ const Home = () => {
       <s.Title>
         diegosilvatech/template--<strong>react-ts</strong>
       </s.Title>
+      <Example.Button />
     </s.Wrapper>
   );
 };
