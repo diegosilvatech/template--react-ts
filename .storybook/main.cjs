@@ -18,5 +18,26 @@ module.exports = {
   },
   features: {
     storyStoreV7: true
-  }
+  },
+  async viteFinal(config, { configType }) {
+    return {
+      ...config,
+      resolve: {
+        alias: [
+          {
+            find: "assets",
+            replacement: path.resolve(__dirname, "../src/assets"),
+          },
+          {
+            find: "components",
+            replacement: path.resolve(__dirname, "../src/components"),
+          },
+          {
+            find: "styles",
+            replacement: path.resolve(__dirname, "../src/styles"),
+          },
+        ],
+      },
+    };
+  },
 }
