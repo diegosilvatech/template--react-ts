@@ -9,7 +9,7 @@ export type ButtonProps = {
 };
 
 const Button = ({
-  children = 'button label example',
+  children = 'click me',
   variant = 'primary',
   type = 'button',
   isFullWidth = false,

@@ -1,4 +1,6 @@
-import { tokens } from '../src/styles'
+import { tokens, globalStyles } from '../src/styles';
+
+globalStyles();
 
 export const parameters = {
   actions: {

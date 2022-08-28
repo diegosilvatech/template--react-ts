@@ -7,7 +7,7 @@ export default {
   component: Button,
   args: {
     variant: 'primary',
-    children: 'button example',
+    children: 'click me',
     type: 'button',
     isFullWidth: false
   },
@@ -16,7 +16,7 @@ export default {
       description: 'component label',
       table: {
         defaultValue: {
-          summary: 'button example'
+          summary: 'click me'
         }
       }
     },

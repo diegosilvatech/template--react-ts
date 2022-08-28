@@ -1,10 +1,11 @@
 import { styled } from 'styles/stitches.config';
 
 export const ButtonWrapper = styled('button', {
-  padding: '$0 $1',
+  padding: '$1 $4',
   fontFamily: '$inter',
+  fontSize: '$textSmall',
   border: '1px solid',
-  fontWeight: '$medium',
+  fontWeight: '$regular',
   '&:hover': {
     cursor: 'pointer'
   },
