@@ -1,33 +1,33 @@
 import { styled } from 'styles/stitches.config';
 
 export const ButtonWrapper = styled('button', {
-  padding: '$1 $4',
-  fontFamily: '$inter',
-  fontSize: '$textSmall',
+  padding: '$spacing-sm $spacing-md',
+  fontFamily: '$font-family-epilogue',
+  fontSize: '$font-size-14',
   border: '1px solid',
-  fontWeight: '$regular',
+  fontWeight: '$font-weight-400',
   '&:hover': {
     cursor: 'pointer'
   },
-  transition: '$default',
+  transition: '$transition-default',
   variants: {
     variant: {
       primary: {
-        backgroundColor: '$sky9',
-        color: '$black',
-        borderColor: '$sky9',
+        backgroundColor: '$brand-primary-09',
+        color: '$base-white',
+        borderColor: '$brand-primary-09',
         '&:hover': {
-          backgroundColor: '$sky10',
-          borderColor: '$sky10'
+          backgroundColor: '$brand-primary-10',
+          borderColor: '$brand-primary-10'
         }
       },
       secondary: {
-        backgroundColor: '$sky3',
-        color: '$sky9',
-        borderColor: '$sky3',
+        backgroundColor: '$brand-primary-03',
+        color: '$brand-primary-12',
+        borderColor: '$brand-primary-03',
         '&:hover': {
-          backgroundColor: '$sky4',
-          borderColor: '$sky4'
+          backgroundColor: '$brand-primary-04',
+          borderColor: '$brand-primary-04'
         }
       }
     },

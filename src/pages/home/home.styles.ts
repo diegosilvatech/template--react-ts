@@ -6,15 +6,17 @@ export const Wrapper = styled('main', {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundColor: '$colorBackground'
+  backgroundColor: '$base-black'
 });
 
 export const Title = styled('h1', {
-  fontSize: '$textDefault',
-  color: '$colorTextContrastHigh',
-  fontWeight: '$regular',
+  fontSize: '$font-size-16',
+  lineHeight: '$line-height-120',
+  color: '$text-contrast-high',
+  fontWeight: '$font-weight-500',
+  letterSpacing: '$letter-spacing-heading',
 
   strong: {
-    color: '$colorHighlight'
+    color: '$brand-secondary-11'
   }
 });

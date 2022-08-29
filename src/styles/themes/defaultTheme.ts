@@ -3,7 +3,6 @@ import {
   color,
   font,
   media,
-  size,
   spacing,
   transition,
   util,
@@ -12,9 +11,15 @@ import {
 
 export const defaultTheme = {
   theme: {
-    borderStyles: { ...border.styles },
-    borderWidths: { ...border.widths },
-    colors: { ...color.base },
+    borderStyles: {},
+    borderWidths: {},
+    colors: {
+      ...color.base,
+      ...color.brand,
+      ...color.hightlight,
+      ...color.semantic,
+      ...color.text
+    },
     fonts: { ...font.family },
     fontSizes: { ...font.size },
     fontWeights: { ...font.weight },
@@ -22,7 +27,7 @@ export const defaultTheme = {
     lineHeights: { ...font.lineHeight },
     radii: { ...border.radius },
     shadows: {},
-    sizes: { ...size },
+    sizes: {},
     space: { ...spacing },
     transitions: { ...transition },
     zIndices: { ...zIndex }

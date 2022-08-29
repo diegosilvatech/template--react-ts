@@ -1,13 +1,12 @@
-import * as border from './border';
-import * as color from './color';
-import * as font from './font';
-import { media } from './media';
-import { opacity } from './opacity';
-import { size } from './size';
-import { spacing } from './spacing';
-import { transition } from './transition';
-import { util } from './util';
-import { zIndex } from './zIndex';
+import * as border from './borders';
+import * as color from './colors/colors';
+import * as font from './fonts';
+import { media } from './medias';
+import { opacity } from './opacities';
+import { spacing } from './spacings';
+import { transition } from './transitions';
+import { util } from './utils';
+import { zIndex } from './z-indices';
 
 export {
   border,
@@ -15,7 +14,6 @@ export {
   font,
   media,
   opacity,
-  size,
   spacing,
   transition,
   util,

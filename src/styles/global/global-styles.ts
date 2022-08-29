@@ -6,11 +6,8 @@ export const globalStyles = globalCss({
     padding: 0,
     boxSizing: 'border-box'
   },
-  html: {
-    fontSize: '50%'
-  },
   body: {
     height: '100vh',
-    fontFamily: '$inter'
+    fontFamily: '$font-family-epilogue'
   }
 });
