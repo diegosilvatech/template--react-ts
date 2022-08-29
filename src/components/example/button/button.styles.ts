@@ -22,12 +22,12 @@ export const ButtonWrapper = styled('button', {
         }
       },
       secondary: {
-        backgroundColor: '$brand-primary-03',
-        color: '$brand-primary-12',
-        borderColor: '$brand-primary-03',
+        backgroundColor: '$brand-secondary-09',
+        color: '$brand-secondary-12',
+        borderColor: '$brand-secondary-09',
         '&:hover': {
-          backgroundColor: '$brand-primary-04',
-          borderColor: '$brand-primary-04'
+          backgroundColor: '$brand-secondary-10',
+          borderColor: '$brand-secondary-10'
         }
       }
     },
