@@ -12,7 +12,7 @@
     "dev": "vite --open",
     "build": "tsc && vite build",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=1",
-    "preview": "vite preview",
+    "preview": "vite preview --open",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
