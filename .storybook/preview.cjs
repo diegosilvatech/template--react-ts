@@ -10,12 +10,12 @@ export const parameters = {
     default: '$base-white',
     values: [
       {
-        name: '$base-black',
-        value: tokens.color.base['base-black']
-      },
-      {
         name: '$base-white',
         value: tokens.color.base['base-white']
+      },
+      {
+        name: '$base-black',
+        value: tokens.color.base['base-black']
       },
       {
         name: '$brand-primary-09',

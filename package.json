@@ -9,7 +9,7 @@
     "url": "https://linkedin.com/in/diegosilvatech"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "tsc && vite build",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=1",
     "preview": "vite preview",
