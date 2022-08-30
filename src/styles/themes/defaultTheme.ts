@@ -17,8 +17,10 @@ export const defaultTheme = {
       ...color.base,
       ...color.brand,
       ...color.hightlight,
+      ...color.neutral,
       ...color.semantic,
-      ...color.text
+      ...color.text,
+      ...color.transparent
     },
     fonts: { ...font.family },
     fontSizes: { ...font.size },

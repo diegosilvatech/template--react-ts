@@ -13,21 +13,21 @@ export const ButtonWrapper = styled('button', {
   variants: {
     variant: {
       primary: {
-        backgroundColor: '$brand-primary-09',
-        color: '$base-white',
-        borderColor: '$brand-primary-09',
+        backgroundColor: '$color-brand-primary-300',
+        color: '$color-base-white-500',
+        borderColor: '$color-brand-primary-300',
         '&:hover': {
-          backgroundColor: '$brand-primary-10',
-          borderColor: '$brand-primary-10'
+          backgroundColor: '$color-brand-primary-400',
+          borderColor: '$color-brand-primary-400'
         }
       },
       secondary: {
-        backgroundColor: '$brand-secondary-09',
-        color: '$brand-secondary-12',
-        borderColor: '$brand-secondary-09',
+        backgroundColor: '$color-brand-secondary-300',
+        color: '$color-base-white-500',
+        borderColor: '$color-brand-secondary-300',
         '&:hover': {
-          backgroundColor: '$brand-secondary-10',
-          borderColor: '$brand-secondary-10'
+          backgroundColor: '$color-brand-secondary-400',
+          borderColor: '$color-brand-secondary-400'
         }
       }
     },
