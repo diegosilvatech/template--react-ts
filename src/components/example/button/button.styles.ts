@@ -3,13 +3,13 @@ import { styled } from 'styles/stitches.config';
 export const ButtonWrapper = styled('button', {
   padding: '$spacing-sm $spacing-md',
   fontFamily: '$font-family-epilogue',
-  fontSize: '$font-size-14',
+  fontSize: '$font-size-body-md',
   border: '1px solid',
-  fontWeight: '$font-weight-400',
+  fontWeight: '$font-weight-300',
+  transition: '$transition-default',
   '&:hover': {
     cursor: 'pointer'
   },
-  transition: '$transition-default',
   variants: {
     variant: {
       primary: {

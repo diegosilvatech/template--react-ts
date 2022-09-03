@@ -1,4 +1,4 @@
-# TEMPLATE –– REACT, TYPESCRIPT with VITEJS
+# TEMPLATE –– VITE + REACT, TYPESCRIPT, STITCHES and STORYBOOK
 
 ##### ReactJS, TypeScript, Stitches and Storybook
 
@@ -6,7 +6,7 @@
 
 ## ABOUT THIS PROJECT
 
-This project is a boilerplate for React and TypeScript projects. This template was built with **Vite**, **TypeScript** and **Stitches**.
+This project is a boilerplate for React with TypeScript projects. This template was built with **Vite**, **ReactJS**, **TypeScript**, **Stitches** and **Storybook**.
 
 ---
 
@@ -39,6 +39,11 @@ yarn preview
 ```
 
 ```jsx
+// run storybook on http://localhost:6006/
+yarn storybook
+```
+
+```jsx
 // runs the linter in all src/ files
 yarn lint
 ```
@@ -48,6 +53,9 @@ _Learn how to install `yarn` through the [official documentation](https://yarnpk
 ---
 
 ## MAIN TECHNOLOGIES USED
+
+### [stitches](https://stitches.dev/)
+> A incredible CSS-in-JS library.
 
 ### [typescript](https://www.typescriptlang.org/)
 > To give more power to my JavaScript code.

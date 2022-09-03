@@ -3,17 +3,17 @@ const family = {
 };
 
 const size = {
-  'font-size-12': '0.75rem', // 12px
-  'font-size-14': '0.875rem', // 14px
-  'font-size-16': '1rem', // 16px
-  'font-size-20': '1.25rem', // 20px
-  'font-size-24': '1.5rem', // 24px
-  'font-size-32': '2rem', // 32px
-  'font-size-40': '2.5rem', // 40px
-  'font-size-48': '3rem', // 48px
-  'font-size-64': '4rem', // 64px
-  'font-size-80': '5rem', // 80px
-  'font-size-96': '6rem' // 96px
+  'font-size-body-xs': '0.75rem', // 12px
+  'font-size-body-sm': '0.875rem', // 14px
+  'font-size-body-md': '1rem', // 16px
+  'font-size-body-lg': '1.25rem', // 20px
+  'font-size-body-xl': '1.5rem', // 24px
+  'font-size-heading-xs': '2rem', // 32px
+  'font-size-heading-sm': '2.5rem', // 40px
+  'font-size-heading-md': '3rem', // 48px
+  'font-size-heading-lg': '4rem', // 64px
+  'font-size-heading-xl': '5rem', // 80px
+  'font-size-display-xl': '6rem' // 96px
 };
 
 const weight = {

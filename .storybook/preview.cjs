@@ -7,27 +7,31 @@ export const parameters = {
     argTypesRegex: '^on[A-Z].*'
   },
   backgrounds: {
-    default: '$base-white',
+    default: '$color-neutral-white-500',
     values: [
       {
-        name: '$base-white',
-        value: tokens.color.base['base-white']
+        name: '$color-base-white-500',
+        value: tokens.color.base['color-base-white-500']
       },
       {
-        name: '$base-black',
-        value: tokens.color.base['base-black']
+        name: '$color-neutral-white-500',
+        value: tokens.color.neutral['color-neutral-white-500']
       },
       {
-        name: '$brand-primary-09',
-        value: tokens.color.brand['brand-primary-09']
+        name: '$color-neutral-black-500',
+        value: tokens.color.neutral['color-neutral-black-500']
       },
       {
-        name: '$brand-secondary-09',
-        value: tokens.color.brand['brand-secondary-09']
+        name: '$color-brand-primary-300',
+        value: tokens.color.brand['color-brand-primary-300']
       },
       {
-        name: '$highlight-09',
-        value: tokens.color.hightlight['highlight-09']
+        name: '$color-brand-secondary-300',
+        value: tokens.color.brand['color-brand-secondary-300']
+      },
+      {
+        name: '$color-base-black-500',
+        value: tokens.color.base['color-base-black-500']
       },
     ]
   },

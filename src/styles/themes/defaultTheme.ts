@@ -2,7 +2,6 @@ import {
   border,
   color,
   font,
-  media,
   spacing,
   transition,
   util,
@@ -35,5 +34,5 @@ export const defaultTheme = {
     zIndices: { ...zIndex }
   },
   utils: { ...util },
-  media: { ...media }
+  media: {}
 };

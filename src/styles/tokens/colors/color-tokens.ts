@@ -1,15 +1,14 @@
 import {
-  blue,
+  violet,
   crimson,
   gray,
   green,
   mauve,
   red,
-  teal,
   transparencyBlack,
   transparencyWhite,
   yellow
-} from './scales/radix';
+} from './palettes';
 
 const base = {
   'color-base-white-500': '#ffffff',
@@ -57,27 +56,27 @@ const transparent = {
 };
 
 const brand = {
-  'color-brand-primary-050': blue['blue-050'],
-  'color-brand-primary-100': blue['blue-100'],
-  'color-brand-primary-200': blue['blue-200'],
-  'color-brand-primary-300': blue['blue-300'],
-  'color-brand-primary-400': blue['blue-400'],
-  'color-brand-primary-500': blue['blue-500'],
-  'color-brand-primary-600': blue['blue-600'],
-  'color-brand-primary-700': blue['blue-700'],
-  'color-brand-primary-800': blue['blue-800'],
-  'color-brand-primary-900': blue['blue-900'],
+  'color-brand-primary-050': violet['violet-050'],
+  'color-brand-primary-100': violet['violet-100'],
+  'color-brand-primary-200': violet['violet-200'],
+  'color-brand-primary-300': violet['violet-300'],
+  'color-brand-primary-400': violet['violet-400'],
+  'color-brand-primary-500': violet['violet-500'],
+  'color-brand-primary-600': violet['violet-600'],
+  'color-brand-primary-700': violet['violet-700'],
+  'color-brand-primary-800': violet['violet-800'],
+  'color-brand-primary-900': violet['violet-900'],
 
-  'color-brand-secondary-050': teal['teal-050'],
-  'color-brand-secondary-100': teal['teal-100'],
-  'color-brand-secondary-200': teal['teal-200'],
-  'color-brand-secondary-300': teal['teal-300'],
-  'color-brand-secondary-400': teal['teal-400'],
-  'color-brand-secondary-500': teal['teal-500'],
-  'color-brand-secondary-600': teal['teal-600'],
-  'color-brand-secondary-700': teal['teal-700'],
-  'color-brand-secondary-800': teal['teal-800'],
-  'color-brand-secondary-900': teal['teal-900']
+  'color-brand-secondary-050': crimson['crimson-050'],
+  'color-brand-secondary-100': crimson['crimson-100'],
+  'color-brand-secondary-200': crimson['crimson-200'],
+  'color-brand-secondary-300': crimson['crimson-300'],
+  'color-brand-secondary-400': crimson['crimson-400'],
+  'color-brand-secondary-500': crimson['crimson-500'],
+  'color-brand-secondary-600': crimson['crimson-600'],
+  'color-brand-secondary-700': crimson['crimson-700'],
+  'color-brand-secondary-800': crimson['crimson-800'],
+  'color-brand-secondary-900': crimson['crimson-900']
 };
 
 const hightlight = {

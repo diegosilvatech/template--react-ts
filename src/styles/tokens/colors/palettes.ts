@@ -63,17 +63,17 @@ const crimson = {
   'crimson-900': '#1d1418'
 };
 
-const blue = {
-  'blue-050': '#eaf6ff',
-  'blue-100': '#52a9ff',
-  'blue-200': '#369eff',
-  'blue-300': '#0091ff',
-  'blue-400': '#0954a5',
-  'blue-500': '#0a4481',
-  'blue-600': '#0f3058',
-  'blue-700': '#102a4c',
-  'blue-800': '#10243e',
-  'blue-900': '#0f1720'
+const violet = {
+  'violet-050': '#f1eefe',
+  'violet-100': '#9e8cfc',
+  'violet-200': '#7c66dc',
+  'violet-300': '#6e56cf',
+  'violet-400': '#5842c3',
+  'violet-500': '#443592',
+  'violet-600': '#32275f',
+  'violet-700': '#2c2250',
+  'violet-800': '#251e40',
+  'violet-900': '#17151f'
 };
 
 const teal = {
@@ -142,7 +142,7 @@ const yellow = {
 };
 
 export {
-  blue,
+  violet,
   crimson,
   gray,
   green,
