@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vite --open",
     "build": "tsc && vite build",
-    "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=1",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "preview": "vite preview --open",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
