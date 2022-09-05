@@ -6,17 +6,22 @@ export default {
   title: 'Examples/Typography',
   component: Typography,
   args: {
-    children: 'typography'
+    children: 'typography',
+    element: 'p',
+    variant: 'body',
+    weight: 'font-weight-400',
+    size: 'font-size-body-md',
+    lineHeight: 'line-height-100'
   },
   argTypes: {
     children: {
-      description: 'text content'
+      description: 'Text content'
     }
   },
   parameters: {}
 } as Meta;
 
-export const ButtonExample: Story<TypographyProps> = args => {
+export const TypographyExample: Story<TypographyProps> = args => {
   const { children } = args;
   return <Typography {...args}>{children}</Typography>;
 };

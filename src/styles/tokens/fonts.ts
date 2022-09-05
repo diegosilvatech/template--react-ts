@@ -1,5 +1,7 @@
 const family = {
-  'font-family-epilogue': 'Epilogue, sans-serif'
+  'font-family-epilogue': 'Epilogue, sans-serif',
+  'font-family-heading': 'Epilogue, sans-serif',
+  'font-family-body': 'Epilogue, sans-serif'
 };
 
 const size = {
