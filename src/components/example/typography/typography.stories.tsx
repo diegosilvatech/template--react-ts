@@ -6,7 +6,7 @@ export default {
   title: 'Examples/Typography',
   component: Typography,
   args: {
-    children: 'typography',
+    children: 'Typography component',
     element: 'p',
     variant: 'body',
     weight: 'font-weight-400',
@@ -16,6 +16,21 @@ export default {
   argTypes: {
     children: {
       description: 'Text content'
+    },
+    element: {
+      description: 'HTML element'
+    },
+    variant: {
+      description: 'Text style'
+    },
+    weight: {
+      description: 'Text weight'
+    },
+    size: {
+      description: 'Text height'
+    },
+    lineHeight: {
+      description: 'Text line height'
     }
   },
   parameters: {}

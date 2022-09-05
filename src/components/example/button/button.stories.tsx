@@ -13,7 +13,7 @@ export default {
   },
   argTypes: {
     children: {
-      description: 'component label',
+      description: 'Button label',
       table: {
         defaultValue: {
           summary: 'click me'
@@ -34,9 +34,7 @@ export default {
       action: 'button-clicked'
     }
   },
-  parameters: {
-    jest: ['button.test.tsx']
-  }
+  parameters: {}
 } as Meta;
 
 export const ButtonExample: Story<ButtonProps> = args => {
