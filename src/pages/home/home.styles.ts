@@ -1,7 +1,7 @@
 import { styled } from 'styles/stitches.config';
 
 export const Wrapper = styled('main', {
-  backgroundColor: '$color-neutral-black-500',
+  backgroundColor: '$neutral-black-500',
   height: '100vh',
   display: 'flex',
   alignItems: 'center',
@@ -9,13 +9,14 @@ export const Wrapper = styled('main', {
 });
 
 export const Title = styled('h1', {
-  fontSize: '$font-size-body-md',
-  lineHeight: '$line-height-120',
-  color: '$color-text-contrast-low',
-  fontWeight: '$font-weight-500',
-  letterSpacing: '$letter-spacing-heading',
+  fontFamily: '$heading',
+  fontSize: '$md',
+  lineHeight: '$120',
+  color: '$text-contrast-high',
+  fontWeight: '$500',
+  letterSpacing: '$heading',
 
   strong: {
-    color: '$color-highlight-secondary-300'
+    color: '$highlight-100'
   }
 });

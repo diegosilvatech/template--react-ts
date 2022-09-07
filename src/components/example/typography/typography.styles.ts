@@ -1,12 +1,12 @@
 import { styled, ConfigProps } from 'styles/stitches.config';
 
 const heading: ConfigProps = {
-  fontFamily: '$font-family-heading',
-  letterSpacing: '$letter-spacing-heading'
+  fontFamily: '$heading',
+  letterSpacing: '$heading'
 };
 
 const body: ConfigProps = {
-  fontFamily: '$font-family-body'
+  fontFamily: '$body'
 };
 
 export const TypographyWrapper = styled('p', {

@@ -9,7 +9,7 @@ import {
 import * as s from './typography.styles';
 
 export type TypographyProps = {
-  children: string | number;
+  children: React.ReactNode;
   variant?: FontVariantTypes;
   element?: FontElementsTypes;
   weight?: FontWeightTypes;
@@ -21,9 +21,9 @@ const Typography = ({
   children,
   variant = 'body',
   element = 'p',
-  weight = 'font-weight-400',
-  size = 'font-size-body-md',
-  lineHeight = 'line-height-100'
+  weight = 400,
+  size = 'md',
+  lineHeight = 100
 }: TypographyProps) => (
   <s.TypographyWrapper
     variant={variant}
